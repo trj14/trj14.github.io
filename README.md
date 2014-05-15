@@ -1,7 +1,7 @@
 ![Banner](http://icap.me/i/114071a1f5.png)
-### Developed by [Gregory Sulaeman](https://github.com/GregPlaysMC]
+###### Developed by [Gregory Sulaeman](https://github.com/GregPlaysMC)
 
-## Tasks
+Tasks
 ==========
 
 - [x] Make the website look clean.
