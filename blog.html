@@ -8,15 +8,15 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>trj14 Official Website | Page Not Found</title>
+    <title>trj14 Official Website | Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="404.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -45,7 +45,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="members.html">Members</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="blog.html">Blog</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,14 +53,43 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <p class="lead"><img src="img/404.jpg"></p>
-        <p class="lead"><a class="btn btn-default" href="index.html" role="button">Back to Home</a></p>
+      <div class="blog-header">
+        <h1 class="blog-title">trj14 Blog</h1>
+        <p class="lead blog-description">The official blog of trj14, containing guides and useful posts.</p>
       </div>
-        
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">How to Find Your Old Messages in Skype</h2>
+            <p class="blog-post-meta">June 5, 2014 by <a href="https://twitter.com/GregPlaysMC">Gregory</a></p>
+
+            <p>Ever wanted to look at your old, silly, Skype messages ? Have you tried to find it ? Did it take forever to do so ? Well I have a guide that can save your time.</p>
+            <h3>First Step</h3>
+            <p>Hover over a message and you should see an icon like this <img src="img/BP1/icon.png">.</p>
+            <h3>Second Step</h3>
+            <p>Click the icon shown above, and hover over '<strong>Jump Back</strong>'. <img src="img/BP1/jumpback.png"></p>
+            <h3>Third Step</h3>
+            <p>When you hover over <strong>Jump Back</strong>, you have 6 options to choose. You can choose <strong>1 day</strong> to go back one day, <strong>1 week</strong> to go back one week, and more. <img src="img/BP1/jumpbackoptions.png"></p>
+            <h3>Fourth Step</h3>
+            <p>Choose one of the options given and you're done ! Enjoy reading your old messages in your silly group chat.</p>
+          </div><!-- /.blog-post -->
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>trj14 is a group based on the Taman Rama Jimbaran school. We create tutorials, and we play games !</p>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
     </div><!-- /.container -->
-      
-      <div class="blog-footer">
+
+    <div class="blog-footer">
       <script src="https://fightforthefuture.github.io/reset-the-net-banner/banner/rtn.js"
 async></script>
               <p>&copy; 2014 trj14 &middot; Website developed by <a href="http://twitter.com/GregPlaysMC">Gregory Sulaeman</a> &middot; Template by <a href="http://getbootstrap.com">Bootstrap</a>.
@@ -72,5 +101,6 @@ async></script>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
   </body>
 </html>
