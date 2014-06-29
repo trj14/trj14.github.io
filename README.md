@@ -6,8 +6,9 @@ Tasks
 
 - [x] Make the website look clean.
 - [x] Add a members page.
-- [ ] Add a games page.
+- [ ] Add a videos page.
 - [x] Create a custom 404 page.
-- [ ] Purchase a domain for this website.
+- [x] Purchase a domain for this website.
+- [ ] 100% HTML, 0% Bootstrap.
 
 
